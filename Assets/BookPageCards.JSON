@@ -1,0 +1,10 @@
+{
+    "sans" : {
+        "title" : "SANS-SERIF",
+        "description" : "Meaning \"without\"-serif. "
+    },
+    "blackletter" : {
+        "title" : "BLACKLETTER",
+        "description" : "Tall and narrow letters with wide strokes. This style in many old books and documents throughout Europe."
+    }
+}
