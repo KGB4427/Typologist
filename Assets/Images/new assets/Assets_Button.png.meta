@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c8e9d11648171dc4f8a2309c1e1619a6
+guid: fded89e562d9cf1409bcab4e212e19c8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7802507520567519931
-    second: Assets_Blank_Tile_0
+      213: -6250037579139691860
+    second: Assets_Button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -52,11 +52,11 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 229, y: 172, z: 223, w: 99}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -139,33 +139,37 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Assets_Blank_Tile_0
+      name: Assets_Button_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 173
-        height: 173
+        x: 228
+        y: 171
+        width: 62
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bbaadb02043184c60800000000000000
-      internalID: 7802507520567519931
+      spriteID: caa49869fe76349a0800000000000000
+      internalID: -6250037579139691860
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline: []
+    outline:
+    - - {x: -27, y: 28}
+      - {x: 33, y: 28}
+      - {x: 33, y: 45}
+      - {x: -27, y: 45}
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -174,7 +178,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Assets_Blank_Tile_0: 7802507520567519931
+      Assets_Button_0: -6250037579139691860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
