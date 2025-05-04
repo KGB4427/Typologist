@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 using System.Collections.Generic;
 
 public class TutorialManager : MonoBehaviour
@@ -16,7 +16,7 @@ public class TutorialManager : MonoBehaviour
     }
 
     public List<TutorialStep> steps = new List<TutorialStep>();
-    public Text tutorialText; // UI Text element
+    public TextMeshProUGUI tutorialText; // TextMeshPro Text element
     public GameObject tutorialPanel; // Panel to show/hide tutorial
     private int currentStep = 0;
 
